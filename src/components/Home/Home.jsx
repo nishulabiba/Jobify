@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import Header from '../Header/Header';
 import JobCat from '../JobCat/JobCat';
+import Featured from '../Featured/Featured';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
              
              <Header></Header>
              <JobCat></JobCat>
+             <Featured></Featured>
 
         
         </div>
