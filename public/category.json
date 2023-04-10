@@ -1,24 +1,24 @@
 [  {    
     "id": 1,   
-    "image_link": " https://ibb.co/PCrdL3n",
+    "img": " https://cdn-icons-png.flaticon.com/512/8051/8051071.png",
      "category_name": "IT",
      "jobs_available": 5  
 },  
 {    
     "id": 2,    
-    "image_link": "https://ibb.co/wJ42Njz",    
+    "img": "https://cdn-icons-png.flaticon.com/512/9541/9541164.png ",    
     "category_name": "Marketing",    
     "jobs_available": 8  
 },  
 {
         "id": 3,    
-        "image_link": "https://ibb.co/SBH9VHB",    
+        "img": "https://cdn-icons-png.flaticon.com/512/9370/9370852.png",    
         "category_name": "Healthcare",    
         "jobs_available": 3  
 },  
 {    
     "id": 4,    
-    "image_link": "https://ibb.co/7KkfVR8",    
+    "img": "https://cdn-icons-png.flaticon.com/512/4260/4260977.png",    
     "category_name": "Finance",    
     "jobs_available": 10  
 }]

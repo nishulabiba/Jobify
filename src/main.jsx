@@ -14,6 +14,7 @@ import Layout from './components/Layout/Layout';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import PieChart from './components/Statistics/Statistics';
 import PolarAreaChart from './components/Statistics/Statistics';
+import categoryLoader from './Loaders/categoryLoader';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
     children: [
       {
         path:"/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: ({params}) => fetch('./category.json')
       },
       {
         path: "statistics",
