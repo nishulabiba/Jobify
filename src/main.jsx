@@ -12,6 +12,8 @@ import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Blog from './components/Blog/Blog';
 import Layout from './components/Layout/Layout';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import PieChart from './components/Statistics/Statistics';
+import PolarAreaChart from './components/Statistics/Statistics';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "statistics",
-        element: <Statistics></Statistics>
+        element: <PolarAreaChart></PolarAreaChart>
       },
       {
         path: "applied",
