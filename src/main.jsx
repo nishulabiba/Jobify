@@ -20,11 +20,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout></Layout>,
     errorElement: <ErrorPage></ErrorPage>,
+    
     children: [
       {
         path:"/",
         element: <Home></Home>,
-        loader: ({params}) => fetch('./category.json')
+        loader: ({params}) => fetch('./category.json'),
       },
       {
         path: "statistics",
