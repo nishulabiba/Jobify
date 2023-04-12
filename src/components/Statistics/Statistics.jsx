@@ -40,7 +40,7 @@ const data = [
 ];
 const Statistics = () => {
 return (
-    <div className='m-8'>
+    <div className='m-8 bg-white text-black p-0 m-3'>
       <h1 className='text-5xl font-bold text-center m-5'>Statistics </h1>
       <AreaChart width={1300} height={400}  data={data} margin={{top: 10, right: 30, left: 0, bottom: 0 }}>
         <CartesianGrid strokeDasharray="3 3" />
