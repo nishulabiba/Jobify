@@ -12,10 +12,9 @@
       "job_responsibility": "Develop and maintain high-quality software products, work collaboratively with cross-functional teams, write clean and maintainable code, participate in code reviews and technical discussions.",
       "educational_requirements": "Bachelor's degree in Computer Science or related field.",
       "experiences": "3+ years of experience in software engineering.",
-      "contact_information": {
+      
         "phone": "+1 (555) 555-5555",
         "email": "jobs@facebook.com"
-      }
     },
     {
       "id": "002",
@@ -30,10 +29,10 @@
       "job_responsibility": "Develop and implement marketing strategies, conduct market research and analysis, create and manage marketing campaigns, collaborate with cross-functional teams.",
       "educational_requirements": "Bachelor's degree in Marketing or related field.",
       "experiences": "5+ years of experience in marketing or related field.",
-      "contact_information": {
+      
         "phone": "+1 (555) 555-5555",
         "email": "jobs@Instagram.com"
-      }
+      
     },
     {
       "id": "003",
@@ -48,10 +47,10 @@
       "job_responsibility": "Analyze and interpret complex data, develop and maintain statistical models, create data visualizations and reports, collaborate with cross-functional teams.",
       "educational_requirements": "Master's or PhD degree in Data Science, Statistics, or related field.",
       "experiences": "2+ years of experience in data science or related field.",
-      "contact_information": {
+      
         "phone": "+1 (555) 555-5555",
         "email": "jobs@youtube.com"
-      }
+      
     },
 
     {
@@ -67,10 +66,10 @@
         "job_responsibility": "Design and develop software solutions, participate in code reviews and testing, troubleshoot and debug issues, collaborate with cross-functional teams.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
         "experiences": "5+ years of experience in software engineering or related field.",
-        "contact_information": {
+        
           "phone": "+1 (555) 555-5555",
           "email": "jobs@gmail.com"
-        }
+        
     },    
    
 
@@ -87,10 +86,10 @@
         "job_responsibility": "Design user interfaces and user experiences, conduct user research and testing, create wireframes and prototypes, collaborate with cross-functional teams.",
         "educational_requirements": "Bachelor's or Master's degree in Design or related field.",
         "experiences": "3+ years of experience in product design or related field.",
-        "contact_information": {
+       
           "phone": "+1 (555) 555-5555",
           "email": "jobs@tweet.com"
-        }
+        
       },
       {
         "id": "006",
@@ -105,10 +104,10 @@
         "job_responsibility": "Develop and implement HR policies and procedures, manage talent acquisition and employee onboarding, oversee employee relations and performance management, administer compensation and benefits programs, ensure compliance with HR regulations.",
         "educational_requirements": "Bachelor's or Master's degree in Human Resources or related field.",
         "experiences": "7+ years of experience in human resources management or related field.",
-        "contact_information": {
+        
           "phone": "+1 (555) 555-5555",
           "email": "jobs@Skype.com"
-        }
+        
       }
     ]
     

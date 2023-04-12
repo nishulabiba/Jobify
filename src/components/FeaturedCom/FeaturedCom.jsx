@@ -12,8 +12,8 @@ const FeaturedCom = (props) => {
                 <h3 className="font-bold">{job_title}</h3>
                 <h4 className='text-slate-600'>{company_name}</h4>
                 <div className="flex flex-row gap-2">
-                    <div className="b border-2 p-1 m-1 border-primary rounded-lg text-primary">{remote_or_onsite}</div>
-                    <div className= "b border-2 p-1 m-1 border-primary rounded-lg text-primary">{fulltime_or_parttime}</div>
+                    <div className="bu border-2 p-1 m-1 border-primary rounded-lg text-primary">{remote_or_onsite}</div>
+                    <div className= "bu border-2 p-1 m-1 border-primary rounded-lg text-primary">{fulltime_or_parttime}</div>
                 </div>
                 <div className="">
                     <p>{location}</p>

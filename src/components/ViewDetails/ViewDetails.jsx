@@ -18,7 +18,8 @@ import { useLoaderData, useParams } from 'react-router-dom';
     },[])
     console.log(view)
 
-    const {id, company_logo, job_title, experiences, job_description, job_responsibility, educational_requirements, company_name, remote_or_onsite,location,  fulltime_or_parttime,contact_information, salary} = view;
+    const {id, company_logo, job_title, experiences, job_description, job_responsibility, educational_requirements, location,  fulltime_or_parttime,email,phone, salary} = view;
+    
     return (
         <div className='bg-white text-black'>
             <div className=" bg-slate-100">
@@ -38,8 +39,8 @@ import { useLoaderData, useParams } from 'react-router-dom';
                     <p className='text-slate-600 m-3'><span>Salary: $</span> {salary}</p>
                     <p className='text-slate-600 m-3'><span>Job Title:</span>{job_title}</p>
                     <h3 className='font-semibold'>Contact Information</h3>
-                    <p className='text-slate-600 m-3'><span>Email: </span>{contact_information.email}</p>
-                    <p className='text-slate-600 m-3'><span>Phone: </span>{contact_information.phone}</p>
+                    <p className='text-slate-600 m-3'><span>Email: </span>{email}</p>
+                    <p className='text-slate-600 m-3'><span>Phone: </span>{phone}</p>
                     <p className='text-slate-600 m-3'><span>Address: </span>{location}</p>
                     </div>
                     <button className='b bg-gradient-to-r from-indigo-500 to-purple-700 px-8 py-3 rounded-md text-white m-5'>Apply Now</button>
