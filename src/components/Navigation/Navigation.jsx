@@ -5,7 +5,7 @@ import './Navigation.css'
 const Navigation = () => {
     return (
         <nav className='flex flex-row justify-around justify-items-center space-x-5  bg-gray-100 p-8 n'>
-            <h1 className=' text-2xl font-bold'> <Link to="/">JobBiFy</Link></h1>
+            <h1 className=' text-2xl font-bold text-black'> <Link to="/">JobBiFy</Link></h1>
             <div className="  flex flex-row gap-8 justify-items-center mt-2 text-slate-500 ">
             <Link to="/">Home</Link>
             <Link to="./statistics">Statistics</Link>

@@ -6,10 +6,9 @@ import Header from '../Header/Header';
 import JobCat from '../JobCat/JobCat';
 import Featured from '../Featured/Featured';
 import './Home.css'
-
 const Home = () => {
     return (
-        <div className='lg:w-auto h' >
+        <div className='lg:w-auto h bg-white text-black' >
              
              <Header></Header>
              <JobCat></JobCat>
