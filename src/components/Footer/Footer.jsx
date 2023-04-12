@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className=' bg-black text-white'>
+        <div className=' bg-black text-white f'>
             <div className="flex flex-row justify-around p-8">
             <div className=" text-white w-1/6 text-left align-center">
                 <h4 className='font-bold m-3 '>JobBify</h4>

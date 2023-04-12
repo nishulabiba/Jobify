@@ -5,10 +5,11 @@ import Navigation from '../Navigation/Navigation';
 import Header from '../Header/Header';
 import JobCat from '../JobCat/JobCat';
 import Featured from '../Featured/Featured';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div className='' >
+        <div className='lg:w-auto h' >
              
              <Header></Header>
              <JobCat></JobCat>
