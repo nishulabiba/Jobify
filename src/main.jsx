@@ -4,6 +4,7 @@ import App from './App'
 import {
   createBrowserRouter,
   RouterProvider,
+  useParams,
 } from "react-router-dom";
 import './index.css'
 import Home from './components/Home/Home';
@@ -15,6 +16,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import PieChart from './components/Statistics/Statistics';
 import PolarAreaChart from './components/Statistics/Statistics';
 import categoryLoader from './Loaders/categoryLoader';
+import ViewDetails from './components/ViewDetails/ViewDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,7 +27,15 @@ const router = createBrowserRouter([
       {
         path:"/",
         element: <Home></Home>,
-        loader: ({params}) => fetch('./featured.json'),
+        loader: () => fetch('./featured.json'),
+      },
+      {
+        path: "/job/:id",
+        element: <ViewDetails></ViewDetails>,
+        loader: ()=>
+          fetch('./featured.json')
+        
+          
       },
       {
         path: "statistics",

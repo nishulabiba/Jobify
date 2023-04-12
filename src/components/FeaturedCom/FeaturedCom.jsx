@@ -1,5 +1,6 @@
 import React from 'react';
 import './FeaturedCom.css'
+import { Link } from 'react-router-dom';
 
 
 const FeaturedCom = (props) => {
@@ -18,7 +19,7 @@ const FeaturedCom = (props) => {
                     <p>{location}</p>
                     <p>$ {salary}</p>
                 </div>
-                <button className='btn  btn-primary bg-gradient-to-r from-indigo-500 to-purple-700 px-4 py-2 rounded-md text-white m-5'>View Details</button>
+                <Link to={`/job/${id}`}><button className='btn  btn-primary bg-gradient-to-r from-indigo-500 to-purple-700 px-4 py-2 rounded-md text-white m-5'>View Details</button></Link>
             </div>
         </div>
     );
